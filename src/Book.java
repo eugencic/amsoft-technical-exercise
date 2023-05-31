@@ -2,7 +2,7 @@ public class Book extends Product {
     private String author;
     private String genre;
 
-    public Book(String name, float price, int quantity, String author, String genre) {
+    public Book(String name, double price, int quantity, String author, String genre) {
         super(name, price, quantity);
         this.author = author;
         this.genre = genre;

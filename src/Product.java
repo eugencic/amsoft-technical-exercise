@@ -1,9 +1,9 @@
 public class Product {
     private String name;
-    private float price;
+    private double price;
     private int quantity;
 
-    public Product(String name, float price, int quantity) {
+    public Product(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
@@ -16,11 +16,11 @@ public class Product {
         this.name = name;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(double price) {
         this.price = price;
     }
     public int getQuantity() {
