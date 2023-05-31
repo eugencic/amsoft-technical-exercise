@@ -1,1 +1,0 @@
-# amsoft-technical-exercise
